@@ -47,7 +47,7 @@ const certifications = [
   {
     title: "FullStack Developer",
     link: "https://www.navttc.com",
-  }
+  },
 ];
 
 const TabSection = () => {
@@ -85,13 +85,14 @@ const TabSection = () => {
             <p className="text-base font-normal text-neutral-700 dark:text-neutral-300">
               Junior FullStack Developer with some experience in developing and
               implementing responsive, user-friendly websites and web
-              applications. Proficient in the use of HTML,
-              CSS, JavaScript, C# and Python. Skilled in utilizing modern front-end and back-end
-              technologies such as React, Nextjs, MaterialUI, Tailwind, ExpressJS, NodeJS, MongoDB, Microsoft SQL Server, ASP.NET Core, to deliver
-              exceptional user experiences. Responsible for bug fixing and
-              maintaining current projects. Certified FullStack Developer with
-              a track record of successfully completing projects utilizing the
-              platform.
+              applications. Proficient in the use of HTML, CSS, JavaScript, C#
+              and Python. Skilled in utilizing modern front-end and back-end
+              technologies such as React, Nextjs, MaterialUI, Tailwind,
+              ExpressJS, NodeJS, MongoDB, Microsoft SQL Server, ASP.NET Core, to
+              deliver exceptional user experiences. Responsible for bug fixing
+              and maintaining current projects. Certified FullStack Developer
+              with a track record of successfully completing projects utilizing
+              the platform.
             </p>
             <br />
             <h3 className="font-semibold text-xl mb-2">Certifications 📝:</h3>
@@ -126,7 +127,7 @@ const TabSection = () => {
             )}
             <img
               src={images.myImage}
-              className="h-full w-full z-10 object-cover object-top rounded-lg filter shadow-lg"
+              className="h-auto w-full z-10 object-contain rounded-lg filter shadow-lg"
               alt="Image Daniyal"
               loading="lazy"
               width={664}

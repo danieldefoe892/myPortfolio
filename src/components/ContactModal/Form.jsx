@@ -13,10 +13,10 @@ export const Form = () => {
   const sendEmail = (formData) => {
     emailjs
       .send(
-        import.meta.env.VITE_EMAIL_JS_SERVICE_ID, // EmailJS service ID
-        import.meta.env.VITE_EMAIL_JS_TEMPLATE_ID, // EmailJS template ID
+        import.meta.env.VITE_EMAIL_JS_SERVICE_ID, 
+        import.meta.env.VITE_EMAIL_JS_TEMPLATE_ID, 
         formData,
-        import.meta.env.VITE_EMAIL_JS_PUBLIC_KEY // EmailJS public key
+        import.meta.env.VITE_EMAIL_JS_PUBLIC_KEY 
       )
       .then(
         (result) => {

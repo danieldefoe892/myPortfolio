@@ -11,7 +11,7 @@ const SectionWrapper = ({
   ...props
 }) => {
   const sectionClassNames = classnames(
-    className, // className from props
+    className,
     "bg-white py-16 relative lg:py-32 dark:bg-primary overflow-hidden"
   );
 

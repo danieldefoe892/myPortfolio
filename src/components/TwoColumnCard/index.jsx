@@ -106,7 +106,7 @@ const TwoColumnCard = () => {
           </span>
           <span className="mt-2 text-xs flex items-center justify-start uppercase text-neutral-600 dark:text-neutral-300">
             <BriefcaseIcon className="text-neutral-600 h-4 mr-2 dark:text-neutral-300" />
-            FREELANCE FRONT-END ENGINEER
+            FULL-STACK ENGINEER
           </span>
         </h6>
         <div className="relative mb-4">
@@ -124,9 +124,8 @@ const TwoColumnCard = () => {
         </div>
         <ul className="text-base text-primary-400 list-inside list-disc dark:text-neutral-200">
           <li>
-            Developed and implemented CMS websites utilizing the HubSpot
-            platform, resulting in an efficient and user-friendly experience for
-            clients
+            Developed and implemented websites utilizing different platforms,
+            resulting in an efficient and user-friendly experience for clients
           </li>
           <li>
             Successfully resolved various technical issues for clients,
